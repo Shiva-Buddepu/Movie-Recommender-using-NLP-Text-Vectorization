@@ -3,6 +3,7 @@
 It recommends similar movies based on movie metadata such as **overview, genres, keywords, cast, and crew**.
 Unlike collaborative filtering, this system does **not require user ratings** and works purely on the textual content of movies.
 
+Complete Data set link: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 ## Features
 - Preprocess movie metadata and create a combined **tags** feature
 - Text vectorization using **CountVectorizer** (bag-of-words model)
